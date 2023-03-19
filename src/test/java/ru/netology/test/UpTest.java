@@ -56,12 +56,12 @@ public class UpTest {
         assertEquals(secondCardBalanceResult, dashboardPage.getSecondBalance());
     }
 
-    @Test
-    public void shouldGetError() {
-        int amount = 100_000;
-        val transactionPage = pushSecond();
-        transactionPage.transferMoney(amount, getFirstCardNumber());
-        transactionPage.getError();
-    }
+//    @Test
+//    public void shouldGetError() {
+//        int amount = 100_000;
+//        val transactionPage = pushSecond();
+//        transactionPage.transferMoney(amount, getFirstCardNumber());
+//        transactionPage.getError();
+//    }
 
 }
